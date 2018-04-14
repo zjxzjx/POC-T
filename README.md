@@ -1,5 +1,5 @@
 # POC-T: *Pentest Over Concurrent Toolkit* 
-[![Python 2.7](https://img.shields.io/badge/python-2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/Xyntax/POC-T/master/doc/LICENSE.txt) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1413552d34bc4a4aa84539db1780eb56)](https://www.codacy.com/app/xyntax/POC-T?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xyntax/POC-T&amp;utm_campaign=Badge_Grade) [![PoC/Scripts](https://img.shields.io/badge/PoC/Scripts-49-blue.svg)](https://github.com/Xyntax/POC-T/wiki/%E5%86%85%E7%BD%AE%E8%84%9A%E6%9C%AC%E5%BA%93) 
+[![Python 2.7](https://img.shields.io/badge/python-2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/Xyntax/POC-T/master/doc/LICENSE.txt) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1413552d34bc4a4aa84539db1780eb56)](https://www.codacy.com/app/xyntax/POC-T?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xyntax/POC-T&amp;utm_campaign=Badge_Grade) [![PoC/Scripts](https://img.shields.io/badge/PoC/Scripts-52-blue.svg)](https://github.com/Xyntax/POC-T/wiki/%E5%86%85%E7%BD%AE%E8%84%9A%E6%9C%AC%E5%BA%93) 
 
 脚本调用框架，用于渗透测试中 **采集|爬虫|爆破|批量PoC** 等需要并发的任务。  
 
@@ -7,7 +7,7 @@
 
 脚本收录 
 ------------------------------------------------------------------
-欢迎提交PoC及实用脚本(i@cdxy.me)，您贡献的PoC相关信息将会在以下位置公开。
+欢迎提交PoC及实用脚本(提PR或邮件联系i@cdxy.me)，您贡献的PoC相关信息将会在以下位置公开。
 * [脚本库](https://github.com/Xyntax/POC-T/wiki/%E5%86%85%E7%BD%AE%E8%84%9A%E6%9C%AC%E5%BA%93)
 * [致谢](https://github.com/Xyntax/POC-T/wiki/%E8%87%B4%E8%B0%A2)
 
@@ -17,7 +17,7 @@
 * 支持多线程/Gevent两种并发模式  
 * 极简式脚本编写，无需参考文档  
 * 内置脚本扩展及常用PoC函数  
-* 支持第三方搜索引擎API(已完成ZoomEye/Shodan/Google)  
+* 支持第三方搜索引擎API(已完成ZoomEye/Shodan/Google/Fofa免费版)  
 
 
 依赖
@@ -37,7 +37,6 @@
 其他
 ---
 * [问题反馈](https://github.com/Xyntax/POC-T/issues/new)
-* [更新日志](https://github.com/Xyntax/POC-T/wiki/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 * [版权声明](https://github.com/Xyntax/POC-T/wiki/%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E)
 
 联系作者

@@ -46,6 +46,8 @@ def cmdLineParser():
                      help='Shodan dork.')
     api.add_argument('-aG', '--google', metavar='DORK', dest="google_dork", type=str, default='',
                      help='Google dork (e.g. "inurl:admin.php")')
+    api.add_argument('-aF', '--fofa', metavar='DORK', dest="fofa_dork", type=str, default='',
+                     help='FoFa dork (e.g. "banner=users && protocol=ftp")')
     api.add_argument('--limit', metavar='NUM', dest="api_limit", type=int, default=10,
                      help='Maximum searching results (default:10)')
     api.add_argument('--offset', metavar='OFFSET', dest="api_offset", type=int, default=0,
@@ -79,8 +81,6 @@ def cmdLineParser():
                         help="show program's version number and exit")
     system.add_argument('-h', '--help', action='help',
                         help='show this help message and exit')
-    system.add_argument('--config', dest="sys_config", default=False, action='store_true',
-                        help='set system/API/ config')
     system.add_argument('--update', dest="sys_update", default=False, action='store_true',
                         help='update POC-T from github source')
 
